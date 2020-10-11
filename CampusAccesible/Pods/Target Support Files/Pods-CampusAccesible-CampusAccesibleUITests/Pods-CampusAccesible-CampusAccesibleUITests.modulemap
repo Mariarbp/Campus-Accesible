@@ -1,0 +1,6 @@
+framework module Pods_CampusAccesible_CampusAccesibleUITests {
+  umbrella header "Pods-CampusAccesible-CampusAccesibleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
