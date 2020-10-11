@@ -17,9 +17,8 @@ class ViewController: UIViewController {
         
         title = "Campus Accesible"
         // Do any additional setup after loading the view.
-        mapView.settings.compassButton = true
-        mapView.settings.myLocationButton = true
-        mapView.isMyLocationEnabled = true
+        let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 25.651001, longitude: -100.289743, zoom: 16)
+            mapView.camera = camera
         
     }
 
