@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		08F997C2F65E8E6914516436 /* Pods_CampusAccesible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EF8926A9A60E38C189EAC1 /* Pods_CampusAccesible.framework */; };
 		4BE8B32CA31F73A72A93C60F /* Pods_CampusAccesibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569394B73275D8B08AA91552 /* Pods_CampusAccesibleTests.framework */; };
 		5253572582F3787C7AF60C3C /* Pods_CampusAccesible_CampusAccesibleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E6902CF08C6DBC192DECFE /* Pods_CampusAccesible_CampusAccesibleUITests.framework */; };
+		A52E2EDB2533E96400027AB3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E2EDA2533E96400027AB3 /* TableViewController.swift */; };
+		A52E2EE02533E97F00027AB3 /* ViewControllerLugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E2EDF2533E97F00027AB3 /* ViewControllerLugares.swift */; };
 		A5B84E3025323E8300F974AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E2F25323E8300F974AE /* AppDelegate.swift */; };
 		A5B84E3225323E8300F974AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E3125323E8300F974AE /* SceneDelegate.swift */; };
 		A5B84E3425323E8300F974AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E3325323E8300F974AE /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		569394B73275D8B08AA91552 /* Pods_CampusAccesibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusAccesibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		957DE2BE20801BC461B16E2D /* Pods-CampusAccesibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusAccesibleTests.release.xcconfig"; path = "Target Support Files/Pods-CampusAccesibleTests/Pods-CampusAccesibleTests.release.xcconfig"; sourceTree = "<group>"; };
 		97EF8926A9A60E38C189EAC1 /* Pods_CampusAccesible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusAccesible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52E2EDA2533E96400027AB3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A52E2EDF2533E97F00027AB3 /* ViewControllerLugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLugares.swift; sourceTree = "<group>"; };
 		A5B84E2C25323E8300F974AE /* CampusAccesible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusAccesible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B84E2F25323E8300F974AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5B84E3125323E8300F974AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +105,6 @@
 				FE9DB13394B794EF39CAE124 /* Pods-CampusAccesibleTests.debug.xcconfig */,
 				957DE2BE20801BC461B16E2D /* Pods-CampusAccesibleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +137,8 @@
 				A5B84E3125323E8300F974AE /* SceneDelegate.swift */,
 				A5B84E3325323E8300F974AE /* ViewController.swift */,
 				A5B84E3525323E8300F974AE /* Main.storyboard */,
+				A52E2EDF2533E97F00027AB3 /* ViewControllerLugares.swift */,
+				A52E2EDA2533E96400027AB3 /* TableViewController.swift */,
 				A5B84E3825323E8600F974AE /* Assets.xcassets */,
 				A5B84E3A25323E8600F974AE /* LaunchScreen.storyboard */,
 				A5B84E3D25323E8600F974AE /* Info.plist */,
@@ -410,6 +415,8 @@
 				A5B84E3425323E8300F974AE /* ViewController.swift in Sources */,
 				A5B84E3025323E8300F974AE /* AppDelegate.swift in Sources */,
 				A5B84E3225323E8300F974AE /* SceneDelegate.swift in Sources */,
+				A52E2EE02533E97F00027AB3 /* ViewControllerLugares.swift in Sources */,
+				A52E2EDB2533E96400027AB3 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
