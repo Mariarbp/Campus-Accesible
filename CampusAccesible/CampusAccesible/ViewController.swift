@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Campus Accesible"
+        title = "Mapa"
         // Do any additional setup after loading the view.
         let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: 25.651001, longitude: -100.289743, zoom: 16)
             mapView.camera = camera
