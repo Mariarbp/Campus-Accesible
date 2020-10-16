@@ -1,0 +1,34 @@
+[
+    {
+        "nombre" : "Edificio 1",
+        "latitud" : 25.651806,
+        "longitud" : -100.290234,
+        "descripcion" : "Aulas 1 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true
+    },
+    {
+        "nombre" : "Aulas 2",
+        "latitud" : 25.651118,
+        "longitud" : -100.290226,
+        "descripcion" : "Aulas 2 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true
+    },
+    {
+        "nombre" : "Aulas 3",
+        "latitud" : 25.650024,
+        "longitud" : -100.290233,
+        "descripcion" : "Aulas 3 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true
+    },
+    {
+        "nombre" : "Aulas 4",
+        "latitud" : 25.650087,
+        "longitud" : -100.289290,
+        "descripcion" : "Aulas 4 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true
+    }
+]
