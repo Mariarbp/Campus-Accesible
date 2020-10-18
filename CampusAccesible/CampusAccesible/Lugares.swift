@@ -37,5 +37,26 @@ class Lugares: NSObject, Codable {
     func getNombre() -> String{
         return nombre
     }
+    
+    func getLatitud() -> Float{
+        return latitud
+    }
+    
+    func getLongitud() -> Float{
+        return longitud
+    }
+    
+    func getDescripcion() -> String{
+        return descripcion
+    }
+    
+    func getBaños() -> Bool{
+        return baños
+    }
+    
+    func getElevador() -> Bool{
+        return elevadores
+    }
+    
 
 }

@@ -8,7 +8,7 @@
         "ambulatorios" : true
     },
     {
-        "nombre" : "Aulas 2",
+        "nombre" : "Edificio 2",
         "latitud" : 25.651118,
         "longitud" : -100.290226,
         "descripcion" : "Aulas 2 Campus Monterrey",
@@ -16,7 +16,7 @@
         "ambulatorios" : true
     },
     {
-        "nombre" : "Aulas 3",
+        "nombre" : "Edificio 3",
         "latitud" : 25.650024,
         "longitud" : -100.290233,
         "descripcion" : "Aulas 3 Campus Monterrey",
@@ -24,7 +24,7 @@
         "ambulatorios" : true
     },
     {
-        "nombre" : "Aulas 4",
+        "nombre" : "Edificio 4",
         "latitud" : 25.650087,
         "longitud" : -100.289290,
         "descripcion" : "Aulas 4 Campus Monterrey",

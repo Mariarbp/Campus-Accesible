@@ -42,6 +42,8 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
         cell.textLabel?.text = lugares[indexPath.row].getNombre()
+        
+        cell.detailTextLabel?.text = lugares[indexPath.row].getDescripcion()
         // Configure the cell...
 
         return cell
@@ -83,14 +85,24 @@ class TableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        let vistaNueva = segue.destination as! ViewControllerLugares
+        
+        let indice = tableView.indexPathForSelectedRow!
+        
+        vistaNueva.nombre = lugares[indice.row].getNombre()
+        
+        vistaNueva.descripcion = lugares[indice.row].getDescripcion()
+        
+//      vistaNueva.nombreFoto = lugares[indice.row].getFoto()
     }
-    */
+    
 
 }
