@@ -36,7 +36,7 @@ class ViewControllerLugares: UIViewController {
         
         lbDescripcion.text = descripcion
         
-//        imgFoto.image = UIImage(named: nombreFoto)
+        imgFoto.image = UIImage(named: nombreFoto)!
 
         // Do any additional setup after loading the view.
     }

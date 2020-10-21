@@ -101,7 +101,7 @@ class TableViewController: UITableViewController {
         
         vistaNueva.descripcion = lugares[indice.row].getDescripcion()
         
-//      vistaNueva.nombreFoto = lugares[indice.row].getFoto()
+        vistaNueva.nombreFoto = lugares[indice.row].getFoto()
     }
     
 

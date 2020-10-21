@@ -15,14 +15,16 @@ class Lugares: NSObject, Codable {
     private var descripcion : String
     private var baños : Bool!
     private var elevadores : Bool!
+    private var foto : String
     
-    init(nombre : String, latitud : Float, longitud : Float, descripcion : String, baños : Bool, elevadores : Bool) {
+    init(nombre : String, latitud : Float, longitud : Float, descripcion : String, baños : Bool, elevadores : Bool, foto : String) {
         self.nombre = nombre
         self.latitud = latitud
         self.longitud = longitud
         self.descripcion = descripcion
         self.baños = baños
         self.elevadores = elevadores
+        self.foto = foto
     }
     
     override init() {
@@ -32,6 +34,7 @@ class Lugares: NSObject, Codable {
         descripcion = ""
         baños = false
         elevadores = false
+        foto = ""
     }
     
     func getNombre() -> String{
@@ -56,6 +59,10 @@ class Lugares: NSObject, Codable {
     
     func getElevador() -> Bool{
         return elevadores
+    }
+    
+    func getFoto() -> String{
+        return foto
     }
     
 

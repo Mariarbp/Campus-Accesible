@@ -5,7 +5,8 @@
         "longitud" : -100.290234,
         "descripcion" : "Aulas 1 Campus Monterrey",
         "elevadores" : true,
-        "ambulatorios" : true
+        "ambulatorios" : true,
+        "foto" : "aulas1"
     },
     {
         "nombre" : "Edificio 2",
@@ -13,7 +14,8 @@
         "longitud" : -100.290226,
         "descripcion" : "Aulas 2 Campus Monterrey",
         "elevadores" : true,
-        "ambulatorios" : true
+        "ambulatorios" : true,
+        "foto" : "aulas2"
     },
     {
         "nombre" : "Edificio 3",
@@ -21,7 +23,8 @@
         "longitud" : -100.290233,
         "descripcion" : "Aulas 3 Campus Monterrey",
         "elevadores" : true,
-        "ambulatorios" : true
+        "ambulatorios" : true,
+        "foto" : "aulas3"
     },
     {
         "nombre" : "Edificio 4",
@@ -29,6 +32,7 @@
         "longitud" : -100.289290,
         "descripcion" : "Aulas 4 Campus Monterrey",
         "elevadores" : true,
-        "ambulatorios" : true
+        "ambulatorios" : true,
+        "foto" : "aulas4"
     }
 ]

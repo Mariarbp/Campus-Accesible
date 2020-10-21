@@ -22,7 +22,8 @@ class Helper{
                 do {
                     let lugaresDecodificados = try JSONDecoder().decode([Lugares].self, from: json)
                     return lugaresDecodificados
-                } catch  {
+                } catch let error {
+                    print(error.localizedDescription)
                     return []
                 }
             }
