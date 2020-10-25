@@ -10,14 +10,14 @@ import UIKit
 class ViewControllerLugares: UIViewController {
 
     @IBOutlet weak var imgFoto: UIImageView!
+        
+    @IBOutlet weak var imgElevador: UIImageView!
     
-    @IBOutlet weak var lbNombre: UILabel!
+    @IBOutlet weak var imgBaño: UIImageView!
     
     @IBOutlet weak var lbDescripcion: UILabel!
     
-    @IBOutlet weak var lbBaños: UILabel!
-    
-    @IBOutlet weak var lbElevadores: UILabel!
+    @IBOutlet weak var lbNombre: UILabel!
     
     var nombre : String!
     
@@ -33,7 +33,7 @@ class ViewControllerLugares: UIViewController {
         super.viewDidLoad()
         
         lbNombre.text = nombre
-        
+
         lbDescripcion.text = descripcion
         
         imgFoto.image = UIImage(named: nombreFoto)!

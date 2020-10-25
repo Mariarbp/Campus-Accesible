@@ -3,7 +3,7 @@
         "nombre" : "Edificio 1",
         "latitud" : 25.651806,
         "longitud" : -100.290234,
-        "descripcion" : "Aulas 1 Campus Monterrey",
+        "descripcion" : "Edificio 1 Campus Monterrey",
         "elevadores" : true,
         "ambulatorios" : true,
         "foto" : "aulas1"
@@ -12,7 +12,7 @@
         "nombre" : "Edificio 2",
         "latitud" : 25.651118,
         "longitud" : -100.290226,
-        "descripcion" : "Aulas 2 Campus Monterrey",
+        "descripcion" : "Edificio 2 Campus Monterrey",
         "elevadores" : true,
         "ambulatorios" : true,
         "foto" : "aulas2"
@@ -21,7 +21,7 @@
         "nombre" : "Edificio 3",
         "latitud" : 25.650024,
         "longitud" : -100.290233,
-        "descripcion" : "Aulas 3 Campus Monterrey",
+        "descripcion" : "Edificio 3 Campus Monterrey",
         "elevadores" : true,
         "ambulatorios" : true,
         "foto" : "aulas3"
@@ -30,9 +30,55 @@
         "nombre" : "Edificio 4",
         "latitud" : 25.650087,
         "longitud" : -100.289290,
-        "descripcion" : "Aulas 4 Campus Monterrey",
+        "descripcion" : "Edificio 4 Campus Monterrey",
         "elevadores" : true,
         "ambulatorios" : true,
         "foto" : "aulas4"
+    },
+    {
+        "nombre" : "Edificio 6",
+        "latitud" : 25.651592,
+        "longitud" : -100.288132,
+        "descripcion" : "Edificio 6 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true,
+        "foto" : "aulas6"
+    },
+    {
+        "nombre" : "Edificio 7",
+        "latitud" : 25.650027,
+        "longitud" : -100.288531,
+        "descripcion" : "Edificio 7 Campus Monterrey",
+        "elevadores" : true,
+        "ambulatorios" : true,
+        "foto" : "aulas7"
+    },
+    {
+        "nombre" : "Centro de Biotecnologia",
+        "latitud" : 25.652247,
+        "longitud" : -100.289255,
+        "descripcion" : "Centro Innovador de Biotecnología",
+        "elevadores" : true,
+        "ambulatorios" : true,
+        "foto" : "centroBiotecnologia"
+    },
+    {
+        "nombre" : "CIAP",
+        "latitud" : 25.652247,
+        "longitud" : -100.289565,
+        "descripcion" : "Centro Internacional de Aprendizaje Avanzado",
+        "elevadores" : true,
+        "ambulatorios" : true,
+        "foto" : "ciap"
+    },
+    {
+        "nombre" : "Centrales",
+        "latitud" : 25.65165,
+        "longitud" : -100.28908,
+        "descripcion" : "Cafeteria Centrales",
+        "elevadores" : false,
+        "ambulatorios" : true,
+        "foto" : "centrales"
     }
+    
 ]

@@ -37,7 +37,6 @@ class TableViewController: UITableViewController {
         return lugares.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
@@ -45,6 +44,8 @@ class TableViewController: UITableViewController {
         
         cell.detailTextLabel?.text = lugares[indexPath.row].getDescripcion()
         // Configure the cell...
+        
+//      cell.imageView?.image = UIImage(named: String(lugares[indexPath.row].getFoto()))
 
         return cell
     }

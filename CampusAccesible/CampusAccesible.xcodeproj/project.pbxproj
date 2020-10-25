@@ -16,6 +16,8 @@
 		A572DACE253A03470020B459 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572DACD253A03470020B459 /* helper.swift */; };
 		A572DAD3253A036C0020B459 /* Lugares.json in Resources */ = {isa = PBXBuildFile; fileRef = A572DAD2253A036C0020B459 /* Lugares.json */; };
 		A572DAD8253A04800020B459 /* Lugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = A572DAD7253A04800020B459 /* Lugares.swift */; };
+		A58001152543A24000A0B1B2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58001132543A24000A0B1B2 /* TableViewCell.swift */; };
+		A58001162543A24000A0B1B2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A58001142543A24000A0B1B2 /* TableViewCell.xib */; };
 		A5B84E3025323E8300F974AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E2F25323E8300F974AE /* AppDelegate.swift */; };
 		A5B84E3225323E8300F974AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E3125323E8300F974AE /* SceneDelegate.swift */; };
 		A5B84E3425323E8300F974AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84E3325323E8300F974AE /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		A572DACD253A03470020B459 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		A572DAD2253A036C0020B459 /* Lugares.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lugares.json; sourceTree = "<group>"; };
 		A572DAD7253A04800020B459 /* Lugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugares.swift; sourceTree = "<group>"; };
+		A58001132543A24000A0B1B2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A58001142543A24000A0B1B2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		A5B84E2C25323E8300F974AE /* CampusAccesible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusAccesible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B84E2F25323E8300F974AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5B84E3125323E8300F974AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				A572DAC82538A29A0020B459 /* ViewControllerInformacion.swift */,
 				A52E2EDF2533E97F00027AB3 /* ViewControllerLugares.swift */,
 				A52E2EDA2533E96400027AB3 /* TableViewController.swift */,
+				A58001132543A24000A0B1B2 /* TableViewCell.swift */,
+				A58001142543A24000A0B1B2 /* TableViewCell.xib */,
 				A5B84E3825323E8600F974AE /* Assets.xcassets */,
 				A5B84E3A25323E8600F974AE /* LaunchScreen.storyboard */,
 				A5B84E3D25323E8600F974AE /* Info.plist */,
@@ -295,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B84E3C25323E8600F974AE /* LaunchScreen.storyboard in Resources */,
+				A58001162543A24000A0B1B2 /* TableViewCell.xib in Resources */,
 				A5B84E3925323E8600F974AE /* Assets.xcassets in Resources */,
 				A5B84E3725323E8300F974AE /* Main.storyboard in Resources */,
 				A572DAD3253A036C0020B459 /* Lugares.json in Resources */,
@@ -428,6 +435,7 @@
 				A5B84E3425323E8300F974AE /* ViewController.swift in Sources */,
 				A5B84E3025323E8300F974AE /* AppDelegate.swift in Sources */,
 				A572DACE253A03470020B459 /* helper.swift in Sources */,
+				A58001152543A24000A0B1B2 /* TableViewCell.swift in Sources */,
 				A572DAD8253A04800020B459 /* Lugares.swift in Sources */,
 				A5B84E3225323E8300F974AE /* SceneDelegate.swift in Sources */,
 				A52E2EE02533E97F00027AB3 /* ViewControllerLugares.swift in Sources */,
